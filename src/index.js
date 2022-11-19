@@ -7,9 +7,9 @@
     let currentPlayer = 'X';
     let isGameActive = true;
 
-    const PLAYERX_WON = 'PLAYERX_WON';
-    const PLAYERO_WON = 'PLAYERO_WON';
-    const TIE = 'TIE';
+    let PLAYERX_WON = 'PLAYERX_WON';
+    let PLAYERO_WON = 'PLAYERO_WON';
+    let TIE = 'TIE';
 
 
     /*
