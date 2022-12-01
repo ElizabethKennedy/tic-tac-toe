@@ -6,20 +6,19 @@
         font-family: cursive;
     }
 
-    
+
     .background {
         background-color:rgb(53, 19, 162);
         padding-top: 1px;
-        background-size:cover;
     }
-    
+
     .title {
         color: rgb(196, 55, 231);
         text-align: center;
         font-size: 40px;
         margin-top: 10%;
     }
-    
+
     .display {
         color: rgb(14, 211, 233);
         font-size: 25px;
@@ -27,20 +26,29 @@
         margin-top: 1em;
         margin-bottom: 1em;
     }
-    
+
+    @media (max-width: 1250px) {
+        /* … */
+      }
+
     .hide {
         display: none;
     }
-    
+
     .container {
-        margin: 0 auto;
+        margin: 16% auto;
         display: grid;
         grid-template-columns: 33% 33% 33%;
         grid-template-rows: 33% 33% 33%;
-        max-width: 300px;
-    
+            width: 100vw;
+            height: 100vw;
+            padding: 16px, 16px, 16px, 16px;
+
+
     }
-    
+
+
+
     .tile {
         border: 1px solid rgb(14, 211, 233);
         min-width: 100px;
@@ -51,18 +59,18 @@
         padding: 7px;
         justify-content: center;
         align-items: center;
-        font-size: 50px;
+        font-size: 70px;
         cursor: pointer;
     }
-    
+
     .playerX {
-        color: white;
+        color: blue;
     }
-    
+
     .playerO {
         color: rgb(14, 211, 233);
     }
-    
+
     .controls {
         display: flex;
         flex-direction: row;
@@ -70,7 +78,7 @@
         align-items: center;
         margin-top: 1em;
     }
-    
+
     .controls button {
         color: rgb(53, 19, 162);
         color: white;
@@ -81,11 +89,11 @@
         margin-left: 1em;
         cursor: pointer;
     }
-    
+
     .restart {
         background-color: #12505f;
     }
-    
+
     #reset {
         background-color: rebeccapurple;
     }
